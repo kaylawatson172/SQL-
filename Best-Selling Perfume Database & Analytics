@@ -9,7 +9,7 @@ Mint (20, $72.99, 5), Rose (36, $99.99, 5), Fresh Linen (87, $15.00, 5),
 Lavender (101, $42.99, 6), Shower (65, $99.99, 6), Cinnamon (33, $42.99, 6),
 Chocolate Surprise (49, $99.99, 7), Sugar Cookies (78, $42.99, 7) **/
 
-----Create a perfume store database:
+--Create a perfume store database:
 
 CREATE TABLE perfumes (id INTEGER PRIMARY KEY, name TEXT, quantity_sold INTEGER, price NUMERIC, aisle INTEGER);
 
